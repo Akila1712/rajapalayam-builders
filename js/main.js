@@ -67,6 +67,7 @@
         dotsData: true,
     });
 
+    
 
     // Testimonials carousel
     $('.testimonial-carousel').owlCarousel({

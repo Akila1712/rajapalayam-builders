@@ -181,6 +181,12 @@ h6,
     object-fit: cover;
 }
 
+.owl-carousel-item2 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
