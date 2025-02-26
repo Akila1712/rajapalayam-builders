@@ -202,9 +202,24 @@ h6,
     .header-carousel .owl-carousel-item p {
         font-size: 16px !important;
     }
-    
-   
+}
 
+@media (max-width: 576px) {
+    .header-carousel .owl-carousel-item {
+        position: relative;
+        min-height: 500px;
+    }
+
+    .header-carousel .owl-carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .header-carousel .owl-carousel-item p {
+        font-size: 16px !important;
+    }
 }
 
 .header-carousel .owl-dots {
@@ -248,10 +263,6 @@ h6,
 }
 
 /* page header */
-.page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
-    background-size: cover;
-}
 
 
 /*** Section Title ***/
