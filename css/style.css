@@ -162,24 +162,29 @@ h6,
    
 }
 
-@media (min-width: 768px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.5s;
-        opacity: 0;
-        will-change: transform, opacity;
-    }
 
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        opacity: 1;
+@media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: calc(1.5rem + 1vw);
+    }
+    
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
+        margin-right: 0;
+        font-size: 14px;
+    }
+    
+    .section-title {
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
     }
 }
+
 
 
 
