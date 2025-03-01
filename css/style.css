@@ -139,32 +139,31 @@ h6,
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
-
-
-    .navbar-collapse {
-        padding: 10px;
-    }
 }
 
 @media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
+    .nav-item.dropdown:hover .dropdown-menu {
         display: block;
-        visibility: hidden;
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        transition: .5s;
-        opacity: 0;
     }
+}
 
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
+/* Navbar Toggler Button */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
 
-   
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Sticky Navbar */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
 }
 
 
