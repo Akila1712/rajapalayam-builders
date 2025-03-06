@@ -7,7 +7,7 @@
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
             }
-        }, 1);
+        }, 4000); // Increased time to 2000 milliseconds (2 seconds)
     };
     spinner();
     
@@ -79,6 +79,8 @@
         items: 1,
         dotsData: true,
     });
+
+
 
     
 })(jQuery);
