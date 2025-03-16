@@ -208,6 +208,9 @@ h6,
    .icon{
     width: 40px;
    }
+   .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
 }
 
 
