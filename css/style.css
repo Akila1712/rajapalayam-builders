@@ -210,7 +210,14 @@ h6,
    }
    .navbar-toggler-icon {
     width: 25px;
-    height: 25px;
+    height: 15px;
+    outline: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 
