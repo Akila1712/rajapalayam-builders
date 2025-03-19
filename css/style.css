@@ -52,6 +52,11 @@ h6,
     opacity: 1;
 }
 
+/*** Icon ***/
+.icon {
+    width:70px;
+    height: auto;
+  }
 
 /*** Button ***/
 .btn {
