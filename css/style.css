@@ -135,7 +135,20 @@ h6,
     transition: .5s;
 }
 
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
 @media (max-width: 768px) {
+   
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
@@ -156,10 +169,10 @@ h6,
         height: 20px;
 }
    
-
 }
 
-@media (max-width: 390.98px) {
+@media (max-width: 387.98px) {
+   
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 8px 0;
@@ -169,7 +182,7 @@ h6,
         border-top: 1px solid #EEEEEE;
     }
     .icon {
-        max-height: 40px; /* Adjust as needed */
+        max-height: 30px; /* Adjust as needed */
         width: auto;
       }
       h1{
@@ -180,28 +193,10 @@ h6,
         height: 20px;
 }
    
-
 }
 
 
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        transition: .5s;
-        opacity: 0;
-    }
 
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
-}
 
 
 /*** Header ***/
