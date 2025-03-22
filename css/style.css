@@ -151,7 +151,7 @@ h6,
         width: auto;
     }
     h1{
-        font-size: 85%;
+        font-size: 89%;
     }
     .navbar-toggler-icon {
         width: 15px;
@@ -159,27 +159,7 @@ h6,
 }
 }
 
-@media (max-width: 768px) {
-    .navbar .navbar-nav .nav-link {
-        margin-right: 0;
-        padding: 10px 0;
-    }
 
-    .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-    .icon {
-        max-height: 40px;
-        width: auto;
-    }
-    h1{
-        font-size: 1.5rem;
-    }
-    .navbar-toggler-icon {
-        width: 15px;
-        height: 15px;
-}
-}
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
