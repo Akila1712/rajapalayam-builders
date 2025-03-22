@@ -185,7 +185,7 @@ h6,
     }
 
     .icon {
-        height: 30px; /* Reduce icon size for very small screens */
+        height: 10px; /* Reduce icon size for very small screens */
         width: auto;
     }
 
