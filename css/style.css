@@ -204,7 +204,7 @@ h6,
 }
 
 /* Extra Small Screens (Phones < 480px) */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     /* Navbar */
     .navbar-toggler-icon {
         width: 20px;
