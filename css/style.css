@@ -171,6 +171,29 @@ h6,
    
 }
 
+@media (max-width: 387px) {
+   
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+    .icon {
+        max-height: 40px; /* Adjust as needed */
+        width: auto;
+      }
+      h1{
+        font-size: 1.3rem;
+      }
+      .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+}
+   
+}
 
 
 
