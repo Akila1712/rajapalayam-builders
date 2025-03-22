@@ -136,65 +136,133 @@ h6,
 }
 
 
-@media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link {
-        margin-right: 0;
-        padding: 10px 0;
-    }
 
-    .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-}
-
+/* General Mobile Fixes */
 @media (max-width: 768px) {
-   
-    .navbar .navbar-nav .nav-link {
-        margin-right: 0;
+    /* Navbar */
+    .navbar .navbar-nav {
+        border-top: 1px solid #ddd;
         padding: 10px 0;
     }
 
-    .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-    .icon {
-        max-height: 40px; /* Adjust as needed */
-        width: auto;
-      }
-      h1{
-        font-size: 1.5rem;
-      }
-      .navbar-toggler-icon {
-        width: 20px;
-        height: 20px;
-}
-   
-}
-
-@media (max-width: 387px) {
-   
     .navbar .navbar-nav .nav-link {
-        margin-right: 0;
-        padding: 5px 0;
+        font-size: 14px;
+        padding: 10px 15px;
     }
 
-    .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+    .navbar-toggler {
+        padding: 6px;
     }
+
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Typography */
+    h1 { font-size: 1.7rem; }
+    h2 { font-size: 1.4rem; }
+    h3, h4 { font-size: 1.2rem; }
+    p { font-size: 14px; }
+
+    /* Buttons */
+    .btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .btn-lg-square {
+        width: 42px;
+        height: 42px;
+    }
+
+    /* Image & Icons */
     .icon {
-        max-height: 40px; /* Adjust as needed */
+        max-height: 50px;
         width: auto;
-      }
-      h1{
-        font-size: 1.3rem;
-      }
-      .navbar-toggler-icon {
+    }
+
+    .owl-carousel-item img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    /* Service Section */
+    .service-item .btn {
+        width: 50px;
+        font-size: 12px;
+    }
+
+    .service-item:hover .btn {
+        width: 120px;
+    }
+
+    /* Project Gallery */
+    .project-gallery img {
+        height: 250px;
+    }
+}
+
+/* Extra Small Screens (Phones < 480px) */
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar-toggler-icon {
         width: 20px;
         height: 20px;
-}
-   
+    }
+
+    /* Typography */
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    h3, h4 { font-size: 1rem; }
+    p { font-size: 13px; }
+
+    /* Buttons */
+    .btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .btn-lg-square {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* Fix Carousel Images */
+    .owl-carousel-item img {
+        height: 280px;
+    }
+
+    /* Footer */
+    .footer .copyright {
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
+/* Extra Small Screens (Phones < 360px) */
+@media (max-width: 380px) {
+    h1 { font-size: 1.3rem; }
+    h2 { font-size: 1.1rem; }
+    p { font-size: 12px; }
+
+    .btn {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+
+    .icon {
+        max-height: 40px;
+    }
+
+    .owl-carousel-item img {
+        height: 250px;
+    }
+
+    .footer .copyright {
+        font-size: 11px;
+    }
+}
 
 
 
