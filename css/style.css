@@ -203,18 +203,26 @@ h6,
     }
 }
 
-/* Extra Small Screens (Phones < 480px) */
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     /* Navbar */
+    .navbar .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .navbar-toggler {
+        padding: 5px;
+    }
+
     .navbar-toggler-icon {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
 
     /* Typography */
-    h1 { font-size: 1.5rem; }
+    h1 { font-size: 1.4rem; }
     h2 { font-size: 1.2rem; }
-    h3, h4 { font-size: 1rem; }
+    h3, h4 { font-size: 1.1rem; }
     p { font-size: 13px; }
 
     /* Buttons */
@@ -224,21 +232,43 @@ h6,
     }
 
     .btn-lg-square {
-        width: 38px;
-        height: 38px;
+        width: 36px;
+        height: 36px;
     }
 
-    /* Fix Carousel Images */
+    /* Images */
+    .icon {
+        max-height: 45px;
+        width: auto;
+    }
+
     .owl-carousel-item img {
         height: 280px;
+        object-fit: cover;
+    }
+
+    /* Service Section */
+    .service-item .btn {
+        width: 50px;
+        font-size: 12px;
+    }
+
+    .service-item:hover .btn {
+        width: 120px;
+    }
+
+    /* Project Gallery */
+    .project-gallery img {
+        height: 240px;
     }
 
     /* Footer */
     .footer .copyright {
-        font-size: 12px;
+        font-size: 11px;
         text-align: center;
     }
 }
+
 
 /* Extra Small Screens (Phones < 360px) */
 @media (max-width: 380px) {
@@ -264,6 +294,29 @@ h6,
     }
 }
 
+/* Extra Small Screens (Phones < 360px) */
+@media (max-width: 345px) {
+    h1 { font-size: 1rem; }
+    h2 { font-size: 1.1rem; }
+    p { font-size: 12px; }
+
+    .btn {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+
+    .icon {
+        max-height: 40px;
+    }
+
+    .owl-carousel-item img {
+        height: 250px;
+    }
+
+    .footer .copyright {
+        font-size: 11px;
+    }
+}
 
 
 /*** Header ***/
