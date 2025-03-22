@@ -135,20 +135,18 @@ h6,
     transition: .5s;
 }
 
-
 @media (max-width: 767.98px) {
     .navbar .navbar-nav .nav-link {
-        font-size: 14px; /* Reduce font size for better fit */
         padding: 8px 0;
     }
 
     .icon {
-        height: 35px; /* Slightly reduce icon size */
+        height: 40px; /* Slightly reduce icon size */
         width: auto;
     }
 
     h1 {
-        font-size: 1.5rem; /* Adjust for better readability */
+        font-size: 1.75rem; /* Keep the same font size */
     }
 
     .navbar-toggler-icon {
@@ -159,16 +157,40 @@ h6,
 
 @media (max-width: 575.98px) {
     .navbar .navbar-nav .nav-link {
-        font-size: 13px; /* Even smaller font for extra small screens */
+        padding: 6px 0;
     }
 
     .icon {
-        height: 30px; /* Reduce icon size further */
+        height: 40px; /* Reduce icon size for very small screens */
         width: auto;
     }
 
     h1 {
-        font-size: 1.25rem;
+        font-size: 1.5rem; /* Keep the same font size */
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px; /* Adjust button padding for better touch experience */
+    }
+
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 3px 0;
+    }
+
+    .icon {
+        height: 30px; /* Reduce icon size for very small screens */
+        width: auto;
+    }
+
+    h1 {
+        font-size: 1rem; /* Keep the same font size */
     }
 
     .navbar-toggler {
